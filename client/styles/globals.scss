@@ -1,12 +1,11 @@
 @import 'colors.scss';
-@import '~bootstrap/scss/bootstrap';
-
+​
 $theme-colors: (
-   "custom-red": $custom-red,
-   "custom-gray": $custom-gray,
-   "custom-gray-darker": $custom-gray-darker,
-   "custom-black": $custom-black,
-   "custom-orange": $custom-orange
+  "custom-red": $custom-red,
+  "custom-gray": $custom-gray,
+  "custom-gray-darker": $custom-gray-darker,
+  "custom-black": $custom-black,
+  "custom-orange": $custom-orange
 );
 
 $spacer: 1rem;
@@ -22,8 +21,10 @@ $spacers: (
  8: ($spacer * 15),
  9: ($spacer * 20)
 );
-
+​
 $font-weight-bold: 600;
+
+@import '~bootstrap/scss/bootstrap';
 
 html, body {
   margin: 0;
