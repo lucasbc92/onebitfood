@@ -13,12 +13,12 @@ function MyApp({ Component, pageProps }) {
           <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
-        <Container className='mt-6'>
-          <RecoilRoot>
-            <Component {...pageProps} />
-          </RecoilRoot>
-        </Container>        
+        <RecoilRoot>
+          <Header />
+          <Container className='mt-6'>
+              <Component {...pageProps} />
+          </Container>
+        </RecoilRoot>        
       </main>
     </>
   )
