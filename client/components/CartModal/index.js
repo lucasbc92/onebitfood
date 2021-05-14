@@ -32,6 +32,7 @@ export default function CartModal(props) {
                             <Button
                                 variant='custom-red'
                                 className='text-white'
+                                onClick={() => props.onHide()}
                             >
                                 Finalizar pedido
                             </Button>
